@@ -144,7 +144,7 @@ function displayGuess(guess) {
   userInput.value = '';
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
-  remaining.innerHTML = `${11 - numGuess} `;
+  remaining.innerHTML = `${12 - numGuess} `;
 }
 
 function displayMessage(message) {
