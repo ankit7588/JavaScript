@@ -6,7 +6,7 @@
 - collection of properties and methods
 - toLowerCase
 
-# Why use OOP
+## Why use OOP
 ### **1. Code Reusability**
 - Benefit: OOP promotes reusing code through inheritance and polymorphism, reducing duplication and saving time.
 - Example: A parent class can define common behaviors and properties that child classes inherit, avoiding the need to write repetitive code.
