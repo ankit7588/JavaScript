@@ -10,15 +10,72 @@
 ### **1. Code Reusability**
 - Benefit: OOP promotes reusing code through inheritance and polymorphism, reducing duplication and saving time.
 - Example: A parent class can define common behaviors and properties that child classes inherit, avoiding the need to write repetitive code.
+```javascript
+
+class Vehicle {
+  start() {
+    console.log("Vehicle started");
+  }
+}
+
+class Car extends Vehicle {
+  drive() {
+    console.log("Car is driving");
+  }
+}
+
+const myCar = new Car();
+myCar.start(); // Reuses code from Vehicle class
+myCar.drive();
+
+```
 ### **2. Modularity**
 - Benefit: OOP organizes code into objects and classes, making the software modular. This makes it easier to break down complex problems and work on them independently.
 - Example: A project can have separate classes for User, Order, and Payment, each handling its own logic.
+```javascript
+
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+
+  greet() {
+    return `Hello, ${this.name}`;
+  }
+}
+
+class Order {
+  placeOrder() {
+    return "Order placed successfully";
+  }
+}
+
+```
 ### **3. Scalability**
 - Benefit: OOP is ideal for building large, scalable systems. You can easily extend functionality by creating new classes or modifying existing ones without affecting unrelated parts of the code.
 - Example: If you want to add a new type of payment (e.g., PayPal) to an e-commerce system, you can extend the Payment class without disrupting the rest of the system.
 ### **4. Maintainability**
 - Benefit: Encapsulation ensures that changes in one part of the program have minimal impact on other parts, making it easier to fix bugs and update the system.
 - Example: By restricting access to private fields, you prevent accidental modifications and ensure that changes only occur through well-defined methods.
+```javascript
+
+class Account {
+  #balance; // Private field
+
+  constructor(initialBalance) {
+    this.#balance = initialBalance;
+  }
+
+  deposit(amount) {
+    this.#balance += amount;
+  }
+
+  getBalance() {
+    return this.#balance;
+  }
+}
+
+```
 ### **5. Abstraction**
 - Benefit: By hiding unnecessary details and exposing only the required functionality, OOP reduces complexity for users and developers.
 - Example: When you use an object like a Car, you don't need to know how the engine or transmission works; you just call methods like startEngine.
@@ -34,6 +91,30 @@
 ### **9. Flexibility and Extensibility**
 - Benefit: Polymorphism allows you to write flexible code that can work with objects of different types, and inheritance makes it easy to extend functionality.
 - Example: A Shape class can have multiple child classes (Rectangle, Circle) that implement their own version of an area method.
+```javascript
+
+class Shape {
+  calculateArea() {
+    throw new Error("Method not implemented");
+  }
+}
+
+class Rectangle extends Shape {
+  constructor(width, height) {
+    super();
+    this.width = width;
+    this.height = height;
+  }
+
+  calculateArea() {
+    return this.width * this.height;
+  }
+}
+
+const myRectangle = new Rectangle(10, 20);
+console.log(myRectangle.calculateArea()); // 200
+
+```
 ### **10. Standardized Approach**
 - Benefit: OOP provides a standardized way of structuring code, which can make it easier to understand and maintain across projects and teams.
 
