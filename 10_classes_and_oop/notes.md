@@ -7,34 +7,34 @@
 - toLowerCase
 
 ## why use OOP
-1. Code Reusability
+**### 1. Code Reusability**
 - Benefit: OOP promotes reusing code through inheritance and polymorphism, reducing duplication and saving time.
 - Example: A parent class can define common behaviors and properties that child classes inherit, avoiding the need to write repetitive code.
-2. Modularity
+**2. Modularity**
 - Benefit: OOP organizes code into objects and classes, making the software modular. This makes it easier to break down complex problems and work on them independently.
 - Example: A project can have separate classes for User, Order, and Payment, each handling its own logic.
-3. Scalability
+**3. Scalability**
 - Benefit: OOP is ideal for building large, scalable systems. You can easily extend functionality by creating new classes or modifying existing ones without affecting unrelated parts of the code.
 - Example: If you want to add a new type of payment (e.g., PayPal) to an e-commerce system, you can extend the Payment class without disrupting the rest of the system.
-4. Maintainability
+**4. Maintainability**
 - Benefit: Encapsulation ensures that changes in one part of the program have minimal impact on other parts, making it easier to fix bugs and update the system.
 - Example: By restricting access to private fields, you prevent accidental modifications and ensure that changes only occur through well-defined methods.
-5. Abstraction
+**5. Abstraction**
 - Benefit: By hiding unnecessary details and exposing only the required functionality, OOP reduces complexity for users and developers.
 - Example: When you use an object like a Car, you don't need to know how the engine or transmission works; you just call methods like startEngine.
-6. Improved Collaboration
+**6. Improved Collaboration**
 - Benefit: OOP's modular structure allows teams to work on different parts of the program independently, improving collaboration and productivity.
 - Example: One team can work on a Database module while another team works on the UserInterface module.
-7. Easier to Debug
+**7. Easier to Debug**
 - Benefit: With OOP, each object is a self-contained unit, making it easier to isolate and debug issues.
 - Example: If there's an error in the Payment class, you only need to look at that class rather than debugging the entire system.
-8. Real-World Mapping
+**8. Real-World Mapping**
 - Benefit: OOP aligns closely with real-world concepts, making it intuitive. Objects and classes model real-world entities, such as a Car, Person, or Order.
 - Example: A Dog class can have properties like name and breed and methods like bark.
-9. Flexibility and Extensibility
+**9. Flexibility and Extensibility**
 - Benefit: Polymorphism allows you to write flexible code that can work with objects of different types, and inheritance makes it easy to extend functionality.
 - Example: A Shape class can have multiple child classes (Rectangle, Circle) that implement their own version of an area method.
-10. Standardized Approach
+**10. Standardized Approach**
 - Benefit: OOP provides a standardized way of structuring code, which can make it easier to understand and maintain across projects and teams.
 
 ## parts of OOP
