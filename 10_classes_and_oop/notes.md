@@ -246,7 +246,7 @@ shapes.forEach(shape => console.log(shape.calculateArea()));
 
 ```
 | **Pillar**    | **What It Does**                                            | **JavaScript Feature Used**      |
-| :------------ | :---------------------------------------------------------- | -------------------------------- |
+| :------------ | :---------------------------------------------------------- | :------------------------------- |
 | Abstraction   | Hides complexity and shows only the essentials              | Classes, Modules, Public Methods |
 | Encapsulation	| Protects and restricts access to object details             | Private Fields, Closures         |
 | Inheritance   | Reuses properties and methods of a parent class             | extends Keyword                  |
